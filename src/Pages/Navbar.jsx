@@ -9,11 +9,11 @@ function Navbar() {
       <div className="container">
         <Link to="/" smooth={true} duration={500} ><img className="logo" src={logo} alt="ent_logo" /></Link>
         <div className="nav-links">
-          <div>
-            <Link to="about" smooth={true} duration={500}>About</Link>
+          <div className="list">
+            <Link to="about" smooth={true} duration={500}>About<span className="pizza-emoji1"> 🍕</span></Link>
           </div>
-          <div>
-            <Link to="order" smooth={true} duration={500}>Order</Link>
+          <div className="list">
+            <Link to="order" smooth={true} duration={500}>Order<span className="pizza-emoji2"> 🍕</span></Link>
           </div>
         </div>
       </div>

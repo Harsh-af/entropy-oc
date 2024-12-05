@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px;
+    padding: 15px 70px 15px 50px;
 }
 
 .logo {
@@ -19,17 +19,31 @@
     width: 170px;
 }
 
-.nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.pizza-emoji1 {
+    display: none;
+}
+.pizza-emoji2 {
+    display: none;
+}
+
+.list{
+    display: flex;
+    width: 100px;
 }
 
 .nav-links {
     display: flex;
-    gap: 30px;
+    gap: 50px;
     color: #ee5194;
     font-family: obviously;
     font-weight: 500;
 }
-  
+
+.nav-links:hover
+.pizza-emoji1 {
+    display:block;
+}
+.nav-links:hover
+.pizza-emoji2 {
+    display:block;
+}
