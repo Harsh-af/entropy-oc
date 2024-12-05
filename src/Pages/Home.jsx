@@ -41,9 +41,9 @@ function Home() {
 
   return (
     <div>
-      
+
       <div className="backgroundHome" ref={aboutRef} >
-        <h1 style={{ fontSize: "70px", fontWeight: 900, fontFamily:"Obviously" }}>Entropy Pizza</h1>
+        <h1 style={{ fontSize: "70px", fontWeight: 900, fontFamily:"Obviously" }}>Entropy Pizza 🍕</h1>
         <p style={{ fontSize: "20px", fontWeight: 500, fontFamily:"Obviously", marginTop:"-30px" }}>
           Discover delicious pizzas made with love.<br />
           With flavours you wouldnt have imagined.
