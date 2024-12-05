@@ -1,19 +1,22 @@
 .navbar {
-    background-color: #f6ff00;
+    background-color: black;
     overflow: hidden;
 }
 
-.navbar .container {
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 50px;
 }
 
 .logo {
     color: rgb(0, 0, 0);
-    font-size: 24px;
-    text-decoration: none;
+    width: 170px;
 }
 
 .nav-links {
@@ -22,22 +25,11 @@
     padding: 0;
 }
 
-.nav-links li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.nav-links li:last-child {
-    margin-right: 0;
-}
-
-.nav-links a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.nav-links a:hover {
-    color: #ddd;
+.nav-links {
+    display: flex;
+    gap: 30px;
+    color: #ee5194;
+    font-family: obviously;
+    font-weight: 500;
 }
   

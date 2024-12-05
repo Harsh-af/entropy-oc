@@ -1,15 +1,21 @@
-import React from 'react';
-import { Link } from 'react-scroll';
+import React from "react";
+import { Link } from "react-scroll";
+
+import logo from "../Images/icons/logo-main.png";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="container">
-        <Link to="about" smooth={true} duration={500} className="logo">Entropy</Link>
-        <ul className="nav-links">
-          <li><Link to="about" smooth={true} duration={500}>About</Link></li>
-          <li><Link to="order" smooth={true} duration={500}>Order</Link></li>
-        </ul>
+        <Link to="/" smooth={true} duration={500} ><img className="logo" src={logo} alt="ent_logo" /></Link>
+        <div className="nav-links">
+          <div>
+            <Link to="about" smooth={true} duration={500}>About</Link>
+          </div>
+          <div>
+            <Link to="order" smooth={true} duration={500}>Order</Link>
+          </div>
+        </div>
       </div>
     </nav>
   );
