@@ -40,33 +40,4 @@
 .nav-links a:hover {
     color: #ddd;
 }
-
-
-/* HomePage */
-.backgroundHome {
-    background: url('/src/Images/pizza_main.jpg');
-    background-size: cover;
-    color: white;
-    padding: 50px;
-    font-family: Arial, sans-serif;
-    height: 180vh;
-  }
-
-  .backgroundAbout {
-    background: url('/src/Images/garlic_main.jpg');
-    background-size: cover;
-    color: white;
-    padding: 50px;
-    font-family: Arial, sans-serif;
-    height: 180vh;
-  }
-
-  .backgroundOrder {
-    background: url('/src/Images/pasta_main.jpeg');
-    background-size: cover;
-    color: white;
-    padding: 50px;
-    font-family: Arial, sans-serif;
-    height: 180vh;
-  }
   

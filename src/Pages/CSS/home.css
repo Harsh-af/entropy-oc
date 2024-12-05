@@ -1,0 +1,58 @@
+/* HomePage */
+.backgroundHome {
+    /* background: url('/src/Images/pizza_main.jpg'); */
+    background-size: cover;
+    color: black;
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    height: 180vh;
+  }
+
+  .backgroundAbout {
+    /* background: url('/src/Images/garlic_main.jpg'); */
+    background-size: cover;
+    color: black;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    height: 180vh;
+  }
+
+  .backgroundOrder {
+    /* background: url('/src/Images/pasta_main.jpeg'); */
+    background-size: cover;
+    color: black;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    height: 180vh;
+  }
+
+  .button-main {
+    display: inline-flex;
+    align-items: center;
+    background: none;
+    padding: 5px 20px 10px 20px;
+    border: 0.1px solid black;
+    border-radius: 50px;
+    font-family: obviously, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: -2px;
+  }
+
+  .arrow-main {
+    width: 20px;
+    margin-left: 10px;
+    margin-bottom: -3px;
+    transition: margin-left 0.3s ease;
+  }
+
+  .button-main:hover 
+  .arrow-main {
+    margin-left: 50px;
+  }
+
+  /* .button-main:hover {
+    transform: scale(1.1);
+  } */
