@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: Obviously;
+  src: url(./Fonts/Obviously.otf);
+}
+
+@font-face {
+  font-family: ObviouslyBlack;
+  src: url(./Fonts/Obviously_Blck.otf);
+}
+
+@font-face {
+  font-family: ObviouslyBold;
+  src: url(./Fonts/Obviously_Bold.otf);
+}
+
+@font-face {
+  font-family: ObviouslySemi;
+  src: url(./Fonts/Obviously_Semi.otf);
+}
+
+@font-face {
+  font-family: ObviouslyMed;
+  src: url(./Fonts/Obviously_Medi.otf);
+}
+
+@font-face {
+  font-family: Today;
+  src: url(./Fonts/Baby-Maryam.ttf);
+}

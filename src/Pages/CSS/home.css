@@ -1,61 +1,62 @@
 /* HomePage */
 .backgroundHome {
-    /* background: url("/src/Images/pizza_main.jpg"); */
     background: 
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Dark overlay */
-    url("/src/Images/pizza_main.jpg");
+    linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)),
+    url("/src/Images/main-pizza.jpg");
+    /* background-color: rgb(88, 88, 88); */
     background-size: cover;
-    color: white;
+    height: 100vh !important;
+    width: 100vw !important;
+    color: rgb(237, 237, 237);
+    /* padding-top: 170px; */
     padding: 150px;
-    font-family: Arial, sans-serif;
-    height: 180vh;
+    font-family: Obviously;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
   }
 
-  .backgroundAbout {
-    /* background: url("/src/Images/garlic_main.jpg"); */
-    background-size: cover;
-    color: black;
-    padding: 50px;
-    font-family: Arial, sans-serif;
-    height: 180vh;
-  }
-
-  .backgroundOrder {
-    /* background: url("/src/Images/pasta_main.jpeg"); */
-    background-size: cover;
-    color: black;
-    padding: 50px;
-    font-family: Arial, sans-serif;
-    height: 180vh;
-  }
-
-  .button-main {
+.button-main {
     display: inline-flex;
+    width:fit-content;
     align-items: center;
     background: none;
     padding: 5px 20px 10px 20px;
-    border: 0.1px solid black;
+    margin-top: 15px;
+    border: 0.1px solid rgb(237, 237, 237);
+    color: rgb(237, 237, 237);
     border-radius: 50px;
-    font-family: obviously, sans-serif;
+    font-family: Obviously, sans-serif;
     font-weight: 500;
     font-size: 12px;
     cursor: pointer;
     transition: all 0.3s ease;
     margin-left: -2px;
-  }
+}
 
-  .arrow-main {
-    width: 20px;
-    margin-left: 10px;
-    margin-bottom: -3px;
-    transition: margin-left 0.3s ease;
-  }
+.arrow-container{
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
 
-  .button-main:hover 
-  .arrow-main {
-    margin-left: 50px;
-  }
+}
+.arrow-text{
+    font-size: 20px;
+    font-family: Today;
+}
+.arrow-white{
+    margin-top: -10px;
+    height: 50px;
+    width: 25px;
+}
 
-  /* .button-main:hover {
-    transform: scale(1.1);
-  } */
+
+
+.text-gradient {
+    background: linear-gradient(to right, #ee5194, #f26f66);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}

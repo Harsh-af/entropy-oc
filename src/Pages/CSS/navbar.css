@@ -1,0 +1,74 @@
+.navbar {
+    /* background: linear-gradient(to bottom, rgb(0, 0, 0), transparent 150%); */
+    /* border-bottom: 0.1px solid grey; */
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 25px 50px;
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    width: 170px;
+}
+
+.nav-link {
+    display: flex;
+    margin-left: 100px;
+    color: rgb(237, 237, 237);
+    font-family: Obviously;
+}
+
+.list1{
+    display: flex;
+    width: 150px;
+}
+.list2{
+    display: flex;
+    width: 150px;
+}
+.list3{
+    display: flex;
+    width: 150px;
+}
+
+.pizza-emoji1 {
+    display: none;
+    margin-left: 10px;
+}
+.pizza-emoji2 {
+    display: none;
+    margin-left: 10px;
+}
+.pizza-emoji3 {
+    display: none;
+    margin-left: 10px;
+}
+
+.list1{
+    cursor: pointer;
+}
+.list2{
+    cursor: pointer;
+}
+.list3{
+    cursor: pointer;
+}
+.list1:hover
+.pizza-emoji1 {
+    display:block;
+}
+.list2:hover
+.pizza-emoji2 {
+    display:block;
+}
+.list3:hover
+.pizza-emoji3 {
+    display:block;
+}

@@ -1,13 +1,34 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client'; 
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
 
-const root = createRoot(document.getElementById('root'));
-root.render(
+//pages
+import Home from "./Pages/Home";
+import Contact from "./Pages/Order";
+import Aboutus from "./Pages/About";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/about",
+    element: <Aboutus />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+  },
+]);
+
+ReactDOM.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
+  document.getElementById("root")
 );
+
 reportWebVitals();
