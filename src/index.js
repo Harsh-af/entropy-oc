@@ -5,7 +5,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 //pages
-import Home from "./Pages/Home";
+import Home from "./App";
 import Contact from "./Pages/Order";
 import Aboutus from "./Pages/About";
 

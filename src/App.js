@@ -6,12 +6,9 @@ import Home from "./Pages/Home";
 
 function App() {
   return (
-    <Router>
-      <Navbar/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
-    </Router>
+    <div style={{ backgroundColor: "black", minHeight: "100vh", overflow: "hidden" }}>
+      <Home />
+    </div>
   );
 }
 

@@ -1,19 +1,18 @@
 /* HomePage */
 .backgroundHome {
+    overflow-x: hidden;
     background: 
     linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0)),
     url("/src/Images/main-pizza.jpg");
-    /* background-color: rgb(88, 88, 88); */
+    overflow: hidden;
     background-size: cover;
     height: 100vh !important;
     width: 100vw !important;
     color: rgb(237, 237, 237);
-    /* padding-top: 170px; */
     padding: 150px;
     font-family: Obviously;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
   }
 
 .button-main {
