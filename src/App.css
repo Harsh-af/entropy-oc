@@ -19,31 +19,57 @@
     width: 170px;
 }
 
+.nav-link {
+    display: flex;
+    color: #ee5194;
+    font-family: obviously;
+    font-weight: 600;
+}
+
+.list1{
+    display: flex;
+    width: 150px;
+}
+.list2{
+    display: flex;
+    width: 150px;
+}
+.list3{
+    display: flex;
+    width: 150px;
+}
+
 .pizza-emoji1 {
     display: none;
+    margin-left: 10px;
 }
 .pizza-emoji2 {
     display: none;
+    margin-left: 10px;
+}
+.pizza-emoji3 {
+    display: none;
+    margin-left: 10px;
 }
 
-.list{
-    display: flex;
-    width: 100px;
+.list1{
+    cursor: pointer;
 }
-
-.nav-links {
-    display: flex;
-    gap: 50px;
-    color: #ee5194;
-    font-family: obviously;
-    font-weight: 500;
+.list2{
+    cursor: pointer;
 }
-
-.nav-links:hover
+.list3{
+    cursor: pointer;
+}
+.list1:hover
 .pizza-emoji1 {
     display:block;
 }
-.nav-links:hover
+.list2:hover
 .pizza-emoji2 {
+    display:block;
+}
+.list3:hover
+.pizza-emoji3 {
     display:block;
 }
